@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Poppins, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #242424;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+
+.pagination > li {
+  display: inline-block;
+  padding: 10px 2px;
+  list-style: none;
+  cursor: pointer;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #2c689c;
+  background-color: #fff;
+  margin-left: -1px;
+  border: 1px solid;
+  border-radius: 4px;
+  border: 1px solid #07a189;
+  color: #7b7b7b;
+  font-weight: 700;
+}
+
+.pagination > li.active > a {
+  color: #ffffff;
+  border: 1px solid #07a189;
+  background-color: #07a189;
+}
+
+.pagination > li.next > a {
+  padding: 11px 12px;
+  border: none;
+  background-color: unset;
+}
+
+.pagination > li.previous > a {
+  padding: 11px 12px;
+  border: none;
+  background-color: unset;
+}
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

@@ -1,0 +1,70 @@
+.header {
+  max-height: 10vh;
+  background-color: rgba(148, 253, 232, 0.21);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-search {
+  background-color: #ffffff;
+  width: 416px;
+  height: 46px;
+  padding-left: 50px;
+  border: 1px solid #07a189 !important;
+  border-radius: 15px !important;
+  outline: none !important;
+  caret-color: black;
+  color: black;
+  font-size: 16px;
+}
+::placeholder {
+  color: rgba(134, 134, 134, 0.31);
+}
+.btn-icon {
+  background-color: #000000 !important;
+  width: 89px;
+  height: 51px;
+  border-radius: 15px !important;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+  margin: 0;
+}
+.btn-icon .MuiButton-endIcon .MuiSvgIcon-root {
+  font-size: 35px;
+  margin-right: 10px;
+}
+.bold-text {
+  color: #000000;
+  width: 130px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+.bold-text:hover {
+  opacity: 0.5;
+}
+.icon-wrap {
+  position: relative;
+}
+.icon-wrap:hover {
+  color: #000000;
+  text-shadow: 2px 2px 20px rgba(134, 134, 134, 0.7);
+  cursor: pointer;
+}
+.notify {
+  position: absolute;
+  background-color: #da0028;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  width: 18px;
+  height: 18px;
+  margin: -5px 0px 0px 18px;
+}
